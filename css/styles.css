@@ -55,6 +55,12 @@
       text-decoration: none
   }
 
+  .img {
+      width: 100%;
+      height: auto;
+      display: block;
+  }
+
   /* Link tag */
   .link {}
 
@@ -134,6 +140,7 @@
 
   .header-navigation-item {
       margin-right: 40px;
+      display: block;
 
   }
 
@@ -147,14 +154,15 @@
 
 
   .header-address {
-      font-style: normal
+      font-style: normal;
+      padding-left: 332px;
   }
 
   .header-address-list {
       padding: 0;
       margin: 0;
       display: flex;
-      margin-left: 332px;
+      margin-left: auto;
 
   }
 
@@ -296,6 +304,7 @@
       line-height: 1.5;
       letter-spacing: 0.02em;
       margin-top: 8px;
+      width: 264px;
 
 
 
@@ -344,7 +353,7 @@
 
 
 
-  .examples-list-img
+  .examples-list-img {}
 
   /* Main 4 */
   .team-section {
@@ -382,13 +391,14 @@
   }
 
   .team-list {
-      margin-bottom: 120px;
+
       margin-top: 72px;
       margin-left: 0;
       display: flex;
       justify-content: center;
       align-items: center;
       padding-left: 0;
+      margin-bottom: 0;
 
   }
 
@@ -397,6 +407,7 @@
 
       margin-right: 24px;
       margin-left: 0;
+      padding-bottom: 32px;
       box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
       border-radius: 0px 0px 4px 4px;
   }
@@ -431,7 +442,7 @@
       text-align: center;
       letter-spacing: 0.02em;
       margin-top: 8px;
-      margin-bottom: 32px;
+
 
   }
 
@@ -527,11 +538,13 @@
   .portfolio-button:hover {
       background-color: var(--backgroung-button-color);
       color: var(--secondary-accent-color);
+      border-color: transparent;
   }
 
   .portfolio-button:focus {
       background-color: var(--backgroung-button-color);
       color: var(--secondary-accent-color);
+      border-color: transparent;
   }
 
   /* Main 2 */
@@ -544,6 +557,7 @@
       margin-left: 0;
       padding-left: 0;
       margin-right: 0;
+      padding-bottom: 120px;
 
 
 
@@ -563,12 +577,12 @@
   }
 
   .services-border {
-      border: none;
+
       border-bottom: 1px solid #E7E9FC;
       border-left: 1px solid #E7E9FC;
       border-right: 1px solid #E7E9FC;
 
-      margin-top: 0;
+
       padding-top: 32px;
       padding-bottom: 32px;
 
@@ -599,6 +613,9 @@
       line-height: 1.2;
       letter-spacing: 0.02em;
 
+      padding-left: 16px;
+      padding-right: 16px;
+
 
 
   }
@@ -610,6 +627,7 @@
       line-height: 1.5;
       letter-spacing: 0.02em;
       margin-top: 8px;
+      padding-left: 16px;
 
 
 
