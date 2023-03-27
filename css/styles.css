@@ -30,6 +30,12 @@
 
   }
 
+  .img {
+      display: block;
+      width: 100%;
+      height: auto;
+  }
+
   h1,
   h2,
   h3,
@@ -596,13 +602,7 @@
 
   .portfolio-link {}
 
-  .portfolio-services-img-list-item-pic {
-      margin-left: 0;
-      margin-bottom: 0;
-      width: 100%;
-      height: auto;
-      display: block;
-  }
+  .portfolio-services-img-list-item-pic {}
 
   .portfolio-services-img-list-item-title {
       color: var(--primary-text-color);
